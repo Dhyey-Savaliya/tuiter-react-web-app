@@ -1,146 +1,428 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
   <link href="../../vendors/bootstrap/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.css"
         rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 
-<table class="w-100">
-    <tbody>
-    <tr>
-        <td width = "15%">
+<div class="d-block d-sm-none fa-2x">XS</div>
+<div class="d-none d-sm-block d-md-none fa-2x">S</div>
+<div class="d-none d-md-block d-lg-none fa-2x">M</div>
+<div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+<div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+<div class="d-none d-xxl-block fa-2x">XXL</div>
 
-            <div class="container text-lg-start">
-                <ul class="list-group">
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4">
-                            SS
-                        </div>
-                        <div class="col">
-                        </div>
-                    </div></li>
+<div class="">
+    <div class="row p-3">
+        <div class="col-2 col-lg-2 col-xl-2 col-xxl-2 col-sm-2">
 
+                <div class=" text-lg-start ">
+                    <ul class="list-group">
+                        <a href="#" class="text-decoration-none">
                         <li class="list-group-item"><div class="row">
-                            <div class="col-4">
-                                SS
-                            </div>
+
                             <div class="col">
-                                Home
+                            <i class="fa-brands pt-1  fa-twitter">
+                            </i>
+
                             </div>
-                        </div></li>
-                    <li class="list-group-item active"><div class="row">
-                        <div class="col-4">
-                            SS
-                        </div>
-                        <div class="col">
-                            Explore
-                        </div>
-                    </div></li>
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4 ">
-                            SS
-                        </div>
-                        <div class="col">
-                            Notification
-                        </div>
-                    </div></li>
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4">
-                            SS
-                        </div>
-                        <div class="col">
-                            Messages
-                        </div>
-                    </div></li>
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4">
-                            SS
-                        </div>
-                        <div class="col">
-                            Bookmarks
-                        </div>
-                    </div></li>
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4 ">
-                            SS
-                        </div>
-                        <div class="col">
-                            Lists
-                        </div>
-                    </div></li>
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4 ">
-                            SS
-                        </div>
-                        <div class="col">
-                            Profile
-                        </div>
-                    </div></li>
-                    <li class="list-group-item"><div class="row">
-                        <div class="col-4">
-                            SS
-                        </div>
-                        <div class="col">
-                            More
-                        </div>
-                    </div></li>
+                        </div></li></a>
+                        <a href="../navigation.html" class="text-decoration-none ">
+                            <li class="list-group-item"><div class="row">
+
+                                <div class="col d-flex">
+                                <i class="pe-2 pt-1 fa-solid fa-house col-12 col-xl-2 col-xxl-2 active-list-item">
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                    Home
+                                </div>
+                                </div>
+                            </div></li></a>
+
+                        <a href="../explore.html" class="text-decoration-none">
+                        <li class="list-group-item active"><div class="row">
+
+                            <div class="col d-flex">
+                                <i class=" pe-2 pt-1 fa-solid fa-hashtag col-12 col-xl-2 col-xxl-2 active-list-item">
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                Explore
+                                </div>
+                            </div>
+                        </div></li></a>
+
+                        <a href="#" class="text-decoration-none">
+                        <li class="list-group-item"><div class="row">
+                            <div class="col d-flex">
+                                <i class=" pe-2 pt-1 fa-solid fa-bell col-12 col-xl-2 col-xxl-2 active-list-item">
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                Notification
+                                </div>
+                            </div>
+                        </div></li></a>
+
+                        <a href="#" class="text-decoration-none">
+                        <li class="list-group-item"><div class="row">
+                            <div class="col d-flex">
+                                <i class="pe-2 pt-1 fa-solid fa-envelope col-12 col-xl-2 col-xxl-2 active-list-item">
+
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                Message
+                                </div>
+                            </div>
+                        </div></li></a>
+
+                        <a href="../bookmark/bookmark-css.html" class="text-decoration-none">
+                        <li class="list-group-item"><div class="row">
+                            <div class="col d-flex">
+                                <i class=" pe-2 pt-1 fa-solid fa-bookmark col-12 col-xl-2 col-xxl-2 active-list-item">
+
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                Bookmarks
+                                </div>
+                            </div>
+                        </div></li></a>
+
+                        <a href="#" class="text-decoration-none">
+                        <li class="list-group-item"><div class="row">
+                            <div class="col d-flex">
+                                <i class=" pe-2 pt-1 fa-solid fa-list col-12 col-xl-2 col-xxl-2 active-list-item">
+
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                Lists
+                                </div>
+                            </div>
+                        </div></li></a>
+
+                        <a href="../profile.html" class="text-decoration-none">
+                        <li class="list-group-item"><div class="row">
+                            <div class="col d-flex">
+                                <i class=" pe-2 pt-1 fa-solid fa-user col-12 col-xl-2 col-xxl-2 active-list-item">
+
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                Profile
+                                </div>
+                            </div>
+                        </div></li></a>
+
+                        <a href="#" class="text-decoration-none">
+                        <li class="list-group-item"><div class="row">
+                            <div class="col d-flex">
+                                <i class=" pe-2 pt-1 fa-solid fa-ellipsis col-12 col-xl-2 col-xxl-2 active-list-item">
+
+                                </i>
+                                <div class="d-none d-xl-block d-xxl-block">
+                                More
+                                </div>
+                            </div>
+                        </div></li></a>
 
 
 
-                </ul>
-            </div>
-            <br>
-            <div class="container">
-             <a href="#" class="btn btn-primary rounded-pill w-100">Tuit</a>
-            </div>
-        </td>
+                    </ul>
+                </div>
+                <br>
+                <div class="container">
+                 <a href="#" class="btn btn-primary rounded-pill w-100">Tuit</a>
+                </div>
+        </div>
 
-<!--        -->
+    <!--        -->
 
-        <td width="65%" class="">
-<!--                <div class="col ">-->
-<!--                          <span class="wd-gray position-absolute ps-3">-->
-<!--                            <i class="fa-solid fa-magnifying-glass"></i>-->
-<!--                          </span>-->
-<!--                    <input class="wd-input me-2 ps-5" placeholder="Search Tuiter" type="text">-->
-<!--                </div>-->
+        <div class="text-lg-start col-10 col-lg-7 col-xl-6 col-xxl-6 pt-3">
 
-<!--                <div class="col ">-->
-<!--                    <div>-->
-<!--                        <i class="fa-solid fa-gear text-primary"></i>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+                <div class="d-flex text-lg-start">
 
+                    <div class="input-group">
 
-
-            <div class="container">
-
-                <div class="input-group mb-3">
-
-                    <input type="text" class="form-control rounded-pill" placeholder="Search" aria-label="Search" aria-describedby="search-icon">
-                    <span class="wd-gray position-sm-">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                          </span>
-                    <div class="input-group-append">
-        <span class="input-group-text bg-transparent border-0" id="fa-gear">
-          <i class="fas fa-gear"></i>
-        </span>
+                        <input type="text" class="form-control rounded-pill wd-search_bar_boot" placeholder="Search Tuit"  aria-describedby="search-icon">
+                        <span class="wd-gray position-absolute ps-4 pt-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                              </span>
+                        <div class="input-group-append">
+                        <span class="input-group-text bg-transparent border-0" id="fa-gear">
+                          <i class="fas fa-gear" style="color: blue"></i>
+                        </span>
+                        </div>
                     </div>
                 </div>
+                <div class="row mt-0 ps-3 pe-3 pt-3">
+                    <ul class="nav nav-tabs d-flex justify-content-between container-fluid">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">For you</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sports</a>
+                        </li>
+
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="#">Entertainment</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="wd-container" style="border-top: none">
+
+                    <img class="w-100 h-50 pt-3  pe-0" src="https://th.bing.com/th/id/R.93cdec860ede57cf8a0b00455eb6afba?rik=fXPRKeIcKt1Bpg&pid=ImgRaw&r=0">
+                    <h4 class="wd-bottom-left-boot ">
+                        SpaceX's New Ambition
+                    </h4>
+                </div>
+
+                <div>
+                    <ul class="list-group list-group-flush p-0 border-start border-end border-bottom border-1 border-gray">
+                        <li class="list-group-item wd-bottom-border">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="wd-gray">
+                                        Web Development
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="fw-bold">
+                                            React.JS
+                                        </div>
+                                        <div class="ms-1">
+                                            <i class="fa-solid fa-check-circle"></i>
+                                        </div>
+                                        <div class="wd-gray ms-2">
+                                            - 2h
+                                        </div>
+                                    </div>
+                                    <div class="fw-bold">
+                                        React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <img class="rounded-4" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item wd-bottom-border">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="d-flex">
+                                        <div class="fw-bold">
+                                            Lionel Messi
+                                        </div>
+                                        <div class="ms-1">
+                                            <i class="fa-solid fa-check-circle"></i>
+                                        </div>
+                                        <div class="wd-gray ms-2">
+                                            - 2h
+                                        </div>
+                                    </div>
+                                    <div class="fw-bold">
+                                        Messi relocated to Spain from Argentina aged 13 to join Barcelona, for whom he made his competitive debut aged 17 in October 2004.
+                                    </div>
+                                    <div class="wd-gray">
+                                        222K Tuiters
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <img class="rounded-4" height="100px" src="https://i.pinimg.com/originals/8e/82/16/8e821676031a97576405ec62d571bfec.jpg" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item wd-bottom-border">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="d-flex">
+                                        <div class="fw-bold">
+                                            NASA
+                                        </div>
+                                        <div class="ms-1">
+                                            <i class="fa-solid fa-check-circle"></i>
+                                        </div>
+                                        <div class="wd-gray ms-2">
+                                            - 3h
+                                        </div>
+                                    </div>
+                                    <div class="fw-bold">
+                                        The US Congress, alarmed by the perceived threat to national security and technological leadership (known as the "Sputnik crisis").
+                                    </div>
+                                    <div class="wd-gray">
+                                        222K Tuiters
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <img class="rounded-4" height="100px" src="https://th.bing.com/th/id/R.b6b987a5c50e2103475f019aa85f94d5?rik=r44ZqS1MzirE2A&riu=http%3a%2f%2fspacefellowship.com%2fwp-content%2fuploads%2f2009%2f07%2fnasa-logo49.jpg&ehk=lp3qbcH1hvb9X09LW9NARgAwBFWvfiDuQxibicygJwQ%3d&risl=&pid=ImgRaw&r=0" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item wd-bottom-border">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="wd-gray">
+                                        Web Development
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="fw-bold">
+                                            Node.JS
+                                        </div>
+                                        <div class="ms-1">
+                                            <i class="fa-solid fa-check-circle"></i>
+                                        </div>
+                                        <div class="wd-gray ms-2">
+                                            - 2h
+                                        </div>
+                                    </div>
+                                    <div class="wd-gray">
+                                        222K Tuiters
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <img class="rounded-4" height="100px" src="https://www.emmanuelgautier.com/images/nodejs.jpg" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </td>
 
-        <td>
 
-        </td>
-    </tr>
-    </tbody>
-</table>
+
+        <div class="col-lg-3 col-xl-3 col-xxl-3 pt-3 ps-4 d-none d-lg-block">
+            <ul class="list-group">
+                <li class="list-group-item"><div class="row">
+
+                    <div class="col fw-bold">
+                        Who To Follow
+
+                    </div>
+                </div></li>
+                <li class="list-group-item"><div class="row">
+
+                    <div class="d-flex align-items-center ">
+                        <div class="col-3">
+                            <img class="w-100 h-100" src="https://th.bing.com/th/id/R.b6b987a5c50e2103475f019aa85f94d5?rik=r44ZqS1MzirE2A&riu=http%3a%2f%2fspacefellowship.com%2fwp-content%2fuploads%2f2009%2f07%2fnasa-logo49.jpg&ehk=lp3qbcH1hvb9X09LW9NARgAwBFWvfiDuQxibicygJwQ%3d&risl=&pid=ImgRaw&r=0">
+                        </div>
+                        <div class="col-6">
+                            <div>NASA
+                            <i class="fa-solid fa-check-circle"></i>
+                            </div>
+                            <div class="wd-gray">
+                                @nasa
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="btn btn-primary rounded-pill w-100 h-50 justify-content-end">Follow</a>
+                        </div>
+                    </div>
+
+                    </div></li>
+
+                <li class="list-group-item"><div class="row">
+
+                    <div class="d-flex align-items-center ">
+                        <div class="col-3">
+                            <img class="w-100 h-100" src="https://th.bing.com/th/id/R.b6b987a5c50e2103475f019aa85f94d5?rik=r44ZqS1MzirE2A&riu=http%3a%2f%2fspacefellowship.com%2fwp-content%2fuploads%2f2009%2f07%2fnasa-logo49.jpg&ehk=lp3qbcH1hvb9X09LW9NARgAwBFWvfiDuQxibicygJwQ%3d&risl=&pid=ImgRaw&r=0">
+                        </div>
+                        <div class="col-6">
+                            <div>NASA
+                                <i class="fa-solid fa-check-circle"></i>
+                            </div>
+                            <div class="wd-gray">
+                                @nasa
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="btn btn-primary rounded-pill w-100 h-50 justify-content-end">Follow</a>
+                        </div>
+                    </div>
+
+                </div></li>
+
+                <li class="list-group-item"><div class="row">
+
+                    <div class="d-flex align-items-center ">
+                        <div class="col-3">
+                            <img class="w-100 h-100" src="https://th.bing.com/th/id/R.b6b987a5c50e2103475f019aa85f94d5?rik=r44ZqS1MzirE2A&riu=http%3a%2f%2fspacefellowship.com%2fwp-content%2fuploads%2f2009%2f07%2fnasa-logo49.jpg&ehk=lp3qbcH1hvb9X09LW9NARgAwBFWvfiDuQxibicygJwQ%3d&risl=&pid=ImgRaw&r=0">
+                        </div>
+                        <div class="col-6">
+                            <div>NASA
+                                <i class="fa-solid fa-check-circle"></i>
+                            </div>
+                            <div class="wd-gray">
+                                @nasa
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="btn btn-primary rounded-pill w-100 h-50 justify-content-end">Follow</a>
+                        </div>
+                    </div>
+
+                </div></li>
+
+                <li class="list-group-item"><div class="row">
+
+                    <div class="d-flex align-items-center ">
+                        <div class="col-3">
+                            <img class="w-100 h-100" src="https://th.bing.com/th/id/R.b6b987a5c50e2103475f019aa85f94d5?rik=r44ZqS1MzirE2A&riu=http%3a%2f%2fspacefellowship.com%2fwp-content%2fuploads%2f2009%2f07%2fnasa-logo49.jpg&ehk=lp3qbcH1hvb9X09LW9NARgAwBFWvfiDuQxibicygJwQ%3d&risl=&pid=ImgRaw&r=0">
+                        </div>
+                        <div class="col-6">
+                            <div>NASA
+                                <i class="fa-solid fa-check-circle"></i>
+                            </div>
+                            <div class="wd-gray">
+                                @nasa
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="btn btn-primary rounded-pill w-100 h-50 justify-content-end">Follow</a>
+                        </div>
+                    </div>
+
+                </div></li>
+
+                <li class="list-group-item"><div class="row">
+
+                    <div class="d-flex align-items-center ">
+                        <div class="col-3">
+                            <img class="w-100 h-100" src="https://th.bing.com/th/id/R.b6b987a5c50e2103475f019aa85f94d5?rik=r44ZqS1MzirE2A&riu=http%3a%2f%2fspacefellowship.com%2fwp-content%2fuploads%2f2009%2f07%2fnasa-logo49.jpg&ehk=lp3qbcH1hvb9X09LW9NARgAwBFWvfiDuQxibicygJwQ%3d&risl=&pid=ImgRaw&r=0">
+                        </div>
+                        <div class="col-6">
+                            <div>NASA
+                                <i class="fa-solid fa-check-circle"></i>
+                            </div>
+                            <div class="wd-gray">
+                                @nasa
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="btn btn-primary rounded-pill w-100 h-50 justify-content-end">Follow</a>
+                        </div>
+                    </div>
+
+                </div></li>
+
+
+
+
+
+
+            </ul>
+        </div>
+    </div>
+
+
+</div>
 
 </body>
 </html>

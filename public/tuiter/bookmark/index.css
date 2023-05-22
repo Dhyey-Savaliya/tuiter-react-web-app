@@ -205,4 +205,17 @@ ul{
     color : grey;
 }
 
+.wd-image-state-ret-like{
+    height: 20px;
+    width: 20px;
+}
 
+.wd-image-state-st-up{
+    height: 15px;
+    width: 15px;
+}
+
+.wd-like-col{
+    color : red;
+    font-size: 13px;
+}

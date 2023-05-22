@@ -13,20 +13,18 @@
     left : 50px
 }
 
+.wd-search_bar_boot::placeholder{
+    position: relative;
+    left : 50px
+}
+
 .wd-setting{
     position : relative;
     top : 5px;
     left : 7%;
 }
 
-.wd-magnify{
-    height: 18px;
-    width: 18px;
-    position: relative;
-    top : 2.5px;
-    left : 40px
 
-}
 
 .wd-selected{
     border: solid;
@@ -168,6 +166,44 @@ ul{
 
 .wd-pad-seperator{
     padding-top:3px;
+}
+
+.wd-magni-boot{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top :2.5px;
+    left : -93%;
+}
+
+.wd-magnify{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top : 2.5px;
+    left : 40px
+
+}
+
+.wd-bottom-left-boot{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+
+}
+
+.wd-gray{
+  color: gray;
+}
+
+.wd-fix-width{
+    width : 230px;
+}
+
+.wd-nav-bar-boot{
+    font-weight: bold;
+    color: rgb(110, 118, 125);
 }
 
 
