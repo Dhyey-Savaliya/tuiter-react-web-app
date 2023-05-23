@@ -155,11 +155,11 @@ td, tr{
     margin: 0;
 }
 
-ul, li {
+.wd-pad-ul, wd-pad-li {
     list-style-type: none;
 }
 
-ul{
+.wd-pad-ul{
     padding: 0; /* Remove padding */
     margin: 0;
 }
