@@ -5,7 +5,8 @@ import HomeScreen from "./home/home-screen";
 import ExploreScreen from "./explore/explore-screen";
 import BookmarksScreen from "./bookmarks/bookmarks-screen";
 import ProfileScreen from "./profile/profile-screen";
-
+import WhoToFollowList from "./who-to-follow-list/index";
+import TuitSummaryList from "./tuit-summary-list/index";
 
 function Tuiter() {
  return (
@@ -24,8 +25,8 @@ function Tuiter() {
          </Routes>
        </div>
        <div className="col-3">
-         <h1>Who to follow</h1>
-       </div>
+         <WhoToFollowList />
+      </div>
      </div>
    </div>
  );
