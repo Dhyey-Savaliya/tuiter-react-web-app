@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/all.min.css';
+import 'public/vendors/bootstrap/all.min.css';
 
 
 const NavigationSidebar = () => {
