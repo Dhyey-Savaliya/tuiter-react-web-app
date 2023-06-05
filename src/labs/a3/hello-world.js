@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Nav from "../../nav";
 
 function HelloWorld() {
+    
     return(
         <div>
             <Nav/>
