@@ -1,4 +1,5 @@
 import React from "react";
+import '../../vendors/bootstrap-icons/font/bootstrap-icons.min.css'
 
 const TuitStates = (
     {
