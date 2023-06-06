@@ -1,4 +1,6 @@
 import React from "react";
+import '../../vendors/bootstrap-icons/font/bootstrap-icons.min.css';
+import './tuit.css';
 import TuitStates from "./tuit-states";
 const TuitItem = (
  {
@@ -21,10 +23,13 @@ const TuitItem = (
        <img width={70} className="float-end rounded-circle" src={`${tuit.image}`}/>
      </div>
      <div className="col-10">
-       <div>{tuit.userName} . {tuit.time}</div>
+       <div>{tuit.userName} <i className="bi bi-patch-check-fill lbluecolor"></i> {tuit.handle} . {tuit.time}</div>
        <div className="fw-bolder">{tuit.topic}</div>
        <div>{tuit.tuit}</div>
-       <div><TuitStates/></div>
+       <div><TuitStates tuit_states={{"liked": tuit.liked,
+        "replies": tuit.replies,
+        "retuits": tuit.retuits,
+        "likes": tuit.likes }} /></div>
      </div>
      
    </div>
