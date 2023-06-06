@@ -34,10 +34,9 @@ const deleteTuitHandler = (id) => {
      </div>
      <div className="col-10">
         
-       <div>{tuit.userName} <i className="bi bi-patch-check-fill lbluecolor"></i> {tuit.handle} . {tuit.time} <i className="bi bi-x-lg float-end"
+       <div><b>{tuit.userName}</b> <i className="bi bi-patch-check-fill lbluecolor"></i> {tuit.handle} . {tuit.time} <i className="bi bi-x-lg float-end"
             onClick={() => deleteTuitHandler(tuit._id)}></i>
         </div>
-       <div className="fw-bolder">{tuit.topic}</div>
        <div>{tuit.tuit}</div>
        <div><TuitStates tuit_states={{"liked": tuit.liked,
         "replies": tuit.replies,
