@@ -38,6 +38,7 @@ const deleteTuitHandler = (id) => {
             onClick={() => deleteTuitHandler(tuit._id)}></i>
         </div>
        <div>{tuit.tuit}</div>
+       <br/>
        <div><TuitStates tuit_states={{"liked": tuit.liked,
         "replies": tuit.replies,
         "retuits": tuit.retuits,
