@@ -1,7 +1,7 @@
 import axios from "axios";
 const SERVER_API_URL = process.env.REACT_APP_SERVER_API_URL;
-// const USERS_URL = `${SERVER_API_URL}/users`;
-const USERS_URL = `http://localhost:4000/api/users`;
+const USERS_URL = `${SERVER_API_URL}/users`;
+// const USERS_URL = `http://localhost:4000/api/users`;
 
 
 const api = axios.create({ withCredentials: true });
@@ -9,8 +9,11 @@ const api = axios.create({ withCredentials: true });
 
 export const login = async ({ username, password }) => {
     console.log("link : ", `${USERS_URL}/login`)
- const response = await api.post(`${USERS_URL}/login`, { username, password });
+    console.log("nn");
+ const response = await api.post(`${USERS_URL}/login`, {username, password});
+ console.log("here");
  const user = response.data;
+ console.log(user);
  return user;
 };
 
