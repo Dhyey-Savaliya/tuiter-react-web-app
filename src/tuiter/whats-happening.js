@@ -4,7 +4,7 @@ import { MdFormatListBulleted} from '@react-icons/all-files/md/MdFormatListBulle
 import { HiOutlineLocationMarker} from '@react-icons/all-files/hi/HiOutlineLocationMarker';
 import { BiBold} from '@react-icons/all-files/bi/BiBold';
 import { BiItalic} from '@react-icons/all-files/bi/BiItalic';
-import {createTuit} from "./reducers/tuits-reducer";
+import {createTuitThunk} from "./services/tuits-thunks";
 import {useDispatch} from "react-redux";
 
 const WhatsHappening = () => {
@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     const newTuit = {
         tuit: whatsHappening
       }
-      dispatch(createTuit(newTuit));
+      dispatch(createTuitThunk(newTuit));
       setWhatsHappening("");
    console.log(whatsHappening);
  }
