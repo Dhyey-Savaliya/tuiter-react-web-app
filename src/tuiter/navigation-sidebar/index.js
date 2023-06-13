@@ -20,7 +20,7 @@ const NavigationSidebar = () => {
           <div className={'d-none d-xl-block d-xxl-block ps-4'}>Login</div>
      </Link>}
      {!currentUser && <Link className={`list-group-item ps-1 text-capitalize col d-flex ${active === "register" ? "active" : ""}`} to="/tuiter/register"> 
-        <i className={`fa fa-person-plus-fill fa-solid col-12 col-xl-2 col-xxl-2 fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "register" ? "active" : ""}`}></i>
+        <i className={`bi fa-person-plus-fill bi-solid col-12 col-xl-2 col-xxl-2 fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "register" ? "active" : ""}`}></i>
           <div className={'d-none d-xl-block d-xxl-block ps-4'}>Register</div>
      </Link>
      }
